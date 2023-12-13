@@ -1,0 +1,98 @@
+nav{
+    position: sticky;
+    top: 0px;
+    left: 20px;
+    z-index: 200;
+    width: 100%;
+    background-color: transparent;
+    box-shadow: rgba(0, 27, 56, 0) 0px 4px 16px;
+}
+
+
+
+.nav{
+    display: flex;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding-inline: 2.5rem;
+    height: 5rem;
+    position: relative;
+    flex-direction: row;
+    -moz-box-align: center;
+    align-items: last baseline;
+    background-color: red;
+    padding-block: 1rem;
+    
+    }
+
+.nav img{
+    margin-right: 2rem;
+}
+
+.rem{
+    display: flex;
+    flex: 1 1 0%;
+
+}
+
+.navClass{
+    display: flex;
+    flex: 1 1 0%;
+}
+
+.navClass li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.navClass li a{
+    margin-right: 2.5rem;
+    text-decoration: none;
+    color: var(--primary-text);
+
+
+}
+
+.signIn{
+    display: flex;
+    gap: 2rem;
+    align-items: last baseline;
+}
+
+.sign{
+    min-width: 52px;
+}
+
+.hamburger{
+    color: black;
+    display: none;
+    /* background-color: red; */
+    width: 40px;
+}
+
+
+@media (max-width:936px) {
+    .hamburger{
+        display: block;
+    }
+
+   
+    .nav{
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    .navClass{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: .25rem;
+    }
+
+    .navClass li a{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+}
