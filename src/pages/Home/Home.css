@@ -1,0 +1,29 @@
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.main-text{
+    max-width: 900px;
+}
+
+.hero-content h1{
+    font-size: 5rem;
+    text-align: center;
+}
+.hero-content h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    letter-spacing: .2px;
+    /* width: 80%; */
+    padding-inline: 2rem;
+    text-align: center;
+}
+
+
+.player-wrapper{
+    max-width: 900px;
+}
+

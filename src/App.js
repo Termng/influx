@@ -12,7 +12,7 @@ function App() {
       <Nav/>
 
       <Routes>
-        <Route path='/home' element = {<Home/>}/>
+        <Route path='/' element = {<Home/>}/>
         <Route path='/pricing' element = {<Pricing/>} />
         <Route path='/product' element =  {<Product/>} />
         <Route path='/resources' element = {<Resources/>} />
@@ -23,7 +23,7 @@ function App() {
 
       <Footer/>
 
-      <h1 className='gradient'>This is a gradient text</h1>
+      
 
     </div>
   );

@@ -14,7 +14,7 @@ const Nav = () => {
 
     <nav>
 
-          <Link to='/home'>
+          <Link to='/'>
             <img src={logo} alt="hello logo"width={120}/> 
           </Link>
         
@@ -40,7 +40,7 @@ const Nav = () => {
 
           <div className= "signIn">
             <a className="sign" href="/">Sign in</a>
-            <Button text="Get Started" size = "15px"/>
+            <Button text="Get Started" size = "1.1rem" btnStyle="PrimaryBtn"/>
           </div>
          
     </nav>
