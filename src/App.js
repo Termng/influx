@@ -8,7 +8,7 @@ import {Home, Pricing, Nav, Product, Resources, Solutions, Footer} from './shand
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Nav/>
 
       <Routes>
