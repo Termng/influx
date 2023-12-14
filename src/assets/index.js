@@ -6,6 +6,7 @@ import kbase from './knowledge-base.svg'
 import omniChannel from './omnichannel-2.svg'
 import teamCollab from './team-collab.svg'
 import autoWorkflow from './auto-workflows.svg'
+import sharedInbox from './shared-inbox-2.svg'
 
 
 // Logo Import
@@ -30,6 +31,17 @@ import circle3 from './circle3.png'
 
 
 
+import Branch from './Branch.svg'
+import Carvana from './Carvana.svg'
+import ClickUp from './ClickUp.svg'
+import CultureAmp from './Culture-Amp.svg'
+import Dropbox from './Dropbox.svg'
+import GoDaddy from './GoDaddy.svg'
+import Hootsuite from './Hootsuite.svg'
+import Lydia from './Lydia.svg'
+import Sennder from './sennder.svg'
+import WizardPins from './WizardPins.svg'
+
 export{
     analytics,
     integrations,
@@ -38,6 +50,7 @@ export{
     omniChannel,
     teamCollab,
     autoWorkflow,
+    sharedInbox,
 
     logo,
     hamburger,
@@ -53,5 +66,18 @@ export{
     clip5,
     circle,
     circle2,
-    circle3
+    circle3,
+
+
+
+    Branch,
+    Carvana,
+    ClickUp,
+    CultureAmp,
+    Dropbox,
+    GoDaddy,
+    Hootsuite,
+    Lydia,
+    Sennder,
+    WizardPins,
 }

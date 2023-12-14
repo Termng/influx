@@ -1,3 +1,9 @@
+import {analytics,integrations,liveChat,
+    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip,circle,circle2,circle3} from '../assets/index'
+
+import {Branch,Carvana,ClickUp,CultureAmp,Dropbox,GoDaddy,   Hootsuite,Lydia,Sennder,WizardPins,} from '../assets/index'
+
+
 export const navNav = [
     {name : "Product", link: "/product"},
     {name : "Solutions", link: "/solutions"},
@@ -5,9 +11,29 @@ export const navNav = [
     {name : "Resources", link: "/resources"},
 ];
 
+export const features = [
+    {icon: sharedInbox, title: "Shared Inbox" },
+    {icon: teamCollab, title: " Team Collaboration" },
+    {icon: kbase, title: "Knowledge Base " },
+    {icon: omniChannel, title: "Omni Channel " },
+    {icon: analytics, title: "Insights % Analytics " },
+    {icon: autoWorkflow, title: "Automated Workflows " },
+    {icon: liveChat, title: "Live Chat " },
+    {icon: integrations, title: "Integrations " },
+]
 
-
-
+export const slidingCarousel = [
+    {imgURL: Branch , company: "Branch"},
+    {imgURL: Carvana , company: "Carvana"},
+    {imgURL: ClickUp , company: "ClickUp"},
+    {imgURL: CultureAmp , company: "CultureAmp"},
+    {imgURL: Dropbox , company: "Dropbox"},
+    {imgURL: GoDaddy , company: "GoDaddy"},
+    {imgURL: Hootsuite , company: "Hootsuite"},
+    {imgURL: Lydia , company: "Lydia"},
+    {imgURL: Sennder , company: "Sennder"},
+    {imgURL: WizardPins , company: "WizardPins"},
+]
 
 
 export const footerlinks = [
