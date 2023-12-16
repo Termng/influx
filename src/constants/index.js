@@ -1,5 +1,5 @@
 import {analytics,integrations,liveChat,
-    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip,circle,circle2,circle3} from '../assets/index'
+    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip,circle,circle2,circle3, envelope, telephone, shake} from '../assets/index'
 
 import {Branch,Carvana,ClickUp,CultureAmp,Dropbox,GoDaddy,   Hootsuite,Lydia,Sennder,WizardPins,} from '../assets/index'
 
@@ -23,17 +23,56 @@ export const features = [
 ]
 
 export const slidingCarousel = [
-    {imgURL: Branch , company: "Branch"},
-    {imgURL: Carvana , company: "Carvana"},
-    {imgURL: ClickUp , company: "ClickUp"},
-    {imgURL: CultureAmp , company: "CultureAmp"},
-    {imgURL: Dropbox , company: "Dropbox"},
-    {imgURL: GoDaddy , company: "GoDaddy"},
-    {imgURL: Hootsuite , company: "Hootsuite"},
-    {imgURL: Lydia , company: "Lydia"},
-    {imgURL: Sennder , company: "Sennder"},
-    {imgURL: WizardPins , company: "WizardPins"},
+    {icono: Branch , company: "Branch"},
+    {icono: Carvana , company: "Carvana"},
+    {icono: ClickUp , company: "ClickUp"},
+    {icono: CultureAmp , company: "CultureAmp"},
+    {icono: Dropbox , company: "Dropbox"},
+    {icono: GoDaddy , company: "GoDaddy"},
+    {icono: Hootsuite , company: "Hootsuite"},
+    {icono: Lydia , company: "Lydia"},
+    {icono: Sennder , company: "Sennder"},
+    {icono: WizardPins , company: "WizardPins"},
 ]
+
+
+
+export const Videocards = [
+    {   
+        title1: "Automation and attention", 
+        text1: "Front automatically aggregates & routes customer conversations from your channels, ensuring every message gets to the right person." 
+    },
+    
+    {   
+        title2: "Speed and Personalization", 
+        text2: "With Front, personalization doesn’t slow teams down. Every conversation is surrounded by customer history, relevant data, and built-in collaboration so teams can work behind the scenes to craft better responses, faster." 
+    },
+
+    {   
+        title3: "Measure customer happiness and team performance", 
+        text3: "You can’t improve what you can’t measure. With a new kind of visibility into both customer experience and team efficiency, you’re always a click away from a complete, 360° view of business impact." 
+    },
+
+]
+
+
+
+export const bestOption = [
+    {imgURL: envelope, head: "Email", Sub: "Great for building relationships, but not efficient, intelligent, or scalable"},
+
+    {imgURL: shake, head: "With Influx, No Excuses!", Sub: "Built-in collaboration. Built for personalization. Built to scale."},
+
+    {imgURL: telephone , head: "Help Desks", Sub: "Handles high-volume well, but not built for collaboration or personalization at scale."}
+]
+
+
+
+
+
+
+
+
+
 
 
 export const footerlinks = [

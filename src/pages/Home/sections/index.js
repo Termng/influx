@@ -1,11 +1,9 @@
 import Carousel from "./Carousel";
 import Feature from "./Feature";
-import OverviewCard from "./OverviewCard"
-import Slider from "./Slider"
+import BestOption from "./BestOption"
 
 export {
     Carousel,
     Feature,
-    OverviewCard,
-    Slider
+    BestOption,
 }

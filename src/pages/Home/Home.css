@@ -1,3 +1,8 @@
+h1, h2, h3, h4, p{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .hero-content{
     display: flex;
     flex-direction: column;
@@ -24,6 +29,31 @@
 
 .player-wrapper{
     max-width: 900px;
+    max-height: 450px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-block: 6rem;
+}
+
+
+.center-text{
+    text-align: center;
+    font-size: var(--sub-head-text);
+    padding-block: 3rem;
+}
+
+.center-text-small{
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 
@@ -48,3 +78,172 @@
     font-weight: 600;
     font-size: 1.3rem;
 }
+
+
+/* This is for the sliding carousel */
+.clip{
+    max-width: 1100px;
+    margin: 0 auto;
+    mask-image: linear-gradient(90deg, transparent 0%, rgba(0, 0, 0, 0.5) 5%, black 15%, black 85%, rgba(0, 0, 0, 0.5) 95%, transparent 100%);
+    overflow-x: hidden;
+
+}
+
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    animation: slideAnimation 40s linear 0s infinite ;
+}
+
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(600px); 
+    }
+    100% {
+        transform: translateX(calc(-100% + 25rem));
+    }
+}
+
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-block: 5rem;
+}
+
+.section3 h2{
+    font-size: 3rem;
+}
+
+.section3 h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 750px;
+    text-align: center;
+    line-height: 2.3rem;
+}
+
+
+
+
+
+/* .slider div */
+
+.card-flex { /*this is a parent class*/
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+
+}
+
+
+.card-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    padding-inline: 2rem;
+}
+
+.card-text{
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.card-text h2{
+    font-size: 2.1rem;
+    font-weight: 700;
+
+}
+.card-text p{
+    font-size: 1.2rem;
+    letter-spacing: .4px;
+    line-height: 1.6rem;
+    font-weight: 400;
+
+}
+
+@media (max-width: 1034px) {
+    .card-comp{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+
+    }
+    .card-text{
+        width: 100%;
+    }
+    
+}
+
+
+/* This is the BestOption section */
+
+.BestOptionFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block: 3rem;
+}
+
+.BestOptionFlex h2{
+    font-size: var(--head-text);
+    text-align: center;
+}
+
+
+.bestMainFlex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.bestCardsFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+}
+
+.bestImg{
+    max-width: 200px;
+}
+.bestImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.text-group{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.4rem;
+}
+
+.text-group h3{
+    font-size: 1.7rem
+}
+
+.text-group p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+

@@ -2,11 +2,17 @@ import React from 'react'
 import Button from '../../components/utils/Button'
 import './Home.css'
 import ReactPlayer from 'react-player';
-import {Carousel, Feature, OverviewCard, Slider} from "../Home/sections/index"
+import {Carousel, Feature, Slider, BestOption} from "../Home/sections/index"
+import { Card1, Card2, Card3 } from './sections/OverviewCard';
+import {SlideSliding } from './sections/Slider';
 
 
 
 const subline = "Influx is a customer operations platform that enables teams to streamline communication and deliver exceptional service at scale."
+
+const midline = "It’s not or. It’s and."
+
+const midlineSub = "Choosing a customer communication solution is hard — but with Front, it’s not. Front is the only inbox built for collaboration, visibility, and efficiency at scale."
 
 
 
@@ -35,16 +41,49 @@ const Home = () => {
       </div>
 
 
-      <h2>A lot goes into keeping customers happy.
-      Keep it all in Influx.</h2>
+     
+        <h2 className='center-text'>A lot goes into keeping customers happy.
+        Keep it all in Influx.</h2>
+        <Feature/>
 
-      <Feature/>
-
-      <Button text={"Get Started"} size={"14px"} btnStyle={"PrimaryBtn"} />
-
-      <h2>8,000+ businesses choose Front for every customer conversation — from simple to complex</h2>
+      <div className='section2'>
+        <Button
+          text={"Get Started"}
+          size={"16px"}
+          btnStyle={"PrimaryBtn"}
+        />
+        
+        <h2 className='center-text-small'>8,000+ businesses choose Front for every customer conversation — from simple to complex</h2>
+      </div>
 
       <Carousel/>
+
+
+      <div className='section3'>
+        <h2 className='gradient'>{midline}</h2>
+        <h3>{midlineSub}</h3>
+      </div>
+
+
+      <div className='card-flex'>
+        <Card1/>
+        <Card2/>
+        <Card3/>
+      </div>
+
+
+        <BestOption/>
+
+        <SlideSliding/>
+       
+
+
+
+
+
+
+
+
 
 
 

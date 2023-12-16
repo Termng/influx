@@ -1,6 +1,5 @@
 import React from 'react'
 import { features } from '../../../constants'
-import { analytics } from '../../../assets'
 
 const Feature = () => {
   return (

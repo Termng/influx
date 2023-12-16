@@ -14,6 +14,7 @@ import logo from './Influx.svg'
 import hamburger from './hamburger.svg'
 
 
+
 // import brand assets
 import brand from './brands.png'
 
@@ -28,6 +29,7 @@ import clip5 from './clipart5.png'
 import circle from './circle.png'
 import circle2 from './circle2.png'
 import circle3 from './circle3.png'
+import arrowRight from './arrow-right-c.svg'
 
 
 
@@ -41,6 +43,14 @@ import Hootsuite from './Hootsuite.svg'
 import Lydia from './Lydia.svg'
 import Sennder from './sennder.svg'
 import WizardPins from './WizardPins.svg'
+import Tesla from './tesla.png'
+
+
+
+import shake from './shake.png'
+import telephone from './telephone.png'
+import envelope from './envelope.png'
+
 
 export{
     analytics,
@@ -80,4 +90,11 @@ export{
     Lydia,
     Sennder,
     WizardPins,
+    Tesla,
+
+
+    envelope,
+    telephone,
+    shake,
+    arrowRight
 }
