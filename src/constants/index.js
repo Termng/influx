@@ -77,7 +77,7 @@ export const bestOption = [
 
 export const footerlinks = [
     {
-        footCategory : "product",
+        footCategory : "Product",
         links: [
             {name: "Product", link: "/"},
             {name: "Pricing", link: "/"},

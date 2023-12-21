@@ -44,13 +44,14 @@ import Lydia from './Lydia.svg'
 import Sennder from './sennder.svg'
 import WizardPins from './WizardPins.svg'
 import Tesla from './tesla.png'
+import Spotify from './spotify-ar21.svg'
 
 
 
 import shake from './shake.png'
 import telephone from './telephone.png'
 import envelope from './envelope.png'
-
+import Torah from './Torah.png'
 
 export{
     analytics,
@@ -77,6 +78,8 @@ export{
     circle,
     circle2,
     circle3,
+    Torah,
+    Spotify,
 
 
 

@@ -74,7 +74,18 @@ const Home = () => {
 
         <BestOption/>
 
-        <SlideSliding/>
+        <div className='sideByside'>
+          <div className='slideContainer'>
+            <SlideSliding/>
+            <SlideSliding/>
+            <SlideSliding/>
+            <SlideSliding/>
+          </div>
+        </div>
+
+       
+  
+
        
 
 

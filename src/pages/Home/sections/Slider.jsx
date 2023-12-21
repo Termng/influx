@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tesla } from '../../../assets';
+import { Carvana, Spotify, Tesla, Torah } from '../../../assets';
 import style from './Slider.module.css'
 import { arrowRight } from '../../../assets';
 
@@ -9,6 +9,8 @@ export function SlideSliding() {
     <div className={style.animSlide}>
       <Slide1/>
       <Slide2/>
+      <Slide3/>
+     
     </div>
   );
 }
@@ -43,15 +45,50 @@ export function Slide1() {
 
 export function Slide2() {
   return (
-    <div className={style.slide1}>
+    <div className={style.slide2}>
       <div className={style.textMain} >
-        <p className='gradient'>“Front has been a game-changer for us in the way we work internally. Having good communication and prompt customer support is crucial.”</p>
+        <p className='gradient'>“Influx has been a game-changer for us in the way we work internally. Having good communication and prompt customer support is crucial.”</p>
         
       </div>
 
-      <div className={style.text}>
-        <h2>Torah Felix</h2>
-        <h3>Engineering VP Spotify</h3>
+
+      <div className={style.imgName}>
+        <div className={style.torah}>
+          <img src={Torah} alt="Torah Felix" />
+        </div>
+        <div className={style.text2}>
+          <h2>Torah Felix</h2>
+          <h3>Engineering VP Spotify</h3>
+        </div>
+      </div>
+
+      <img src={Spotify} alt="Spotify Logo" />
+
+
+      <a className={style.learn}  href="/"> Learn More
+      <img 
+        src={arrowRight} 
+        alt="arrowRight" />
+      </a>
+    </div>
+  );
+}
+
+export function Slide3() {
+  return (
+    <div className={style.slide3}>
+      <img 
+      src={Carvana} 
+      alt="Spotify Logo"
+      width={200}
+      
+      />
+
+      <h1 className ='gradient'>482%</h1>
+
+      <div className={style.textMain3} >
+        <p>“Influx has been a game-changer for us in the way we work internally. Having good communication and prompt customer support is crucial.”</p>
+        
       </div>
 
 

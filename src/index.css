@@ -111,3 +111,31 @@ button a{
 }
 
 
+.sideByside {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+}
+
+.slideContainer {
+  display: flex;
+  gap: 5rem;
+  animation: slideInFromLeft 150s linear infinite;
+}
+
+.slideContent {
+  flex: 0 0 auto;
+  width: 100%; /* Ensure each slide takes up the full width */
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-75%); /* Adjust percentage based on the number of duplicated slides */
+  }
+}
+
