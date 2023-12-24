@@ -1,0 +1,229 @@
+:root{
+    --blue-color: #2f81ce;
+    --grey-text: #6c757d;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1rem;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+  }
+.top{
+    max-width: 700px;
+}
+
+.top h1{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.top p{
+    padding-block: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+  
+  .circle {
+    width: 500px;
+    height: 500px;
+    position: absolute; 
+    left: -550px; 
+  }
+  
+  .circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .clipart{
+    width: 400px;
+    height: auto;
+    transform: translateX(150px);
+  }
+
+  .clipart img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* THIS IS THE STYLE FOR THE STEPPED GRID */
+
+
+.flex{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 4rem;
+    padding-block: 10rem;
+}
+
+.flexChild{
+    max-width: 350px ;
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.head{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .8rem;
+}
+
+.subtext{
+    color: var(--blue-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.subtext2{
+    line-height: 1.4rem;
+    color: var(--grey-text);
+}
+
+
+
+@media (min-width: 1200px) {
+    .flexChild:first-child{
+        transform: translateY(-150px);
+    }
+    .flexChild:last-child{
+        transform: translateY(150px);
+    }
+}
+
+
+/* THIS IS THE STYLE FOR THE LOGOS */
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-block: 5rem;
+}
+
+@media (max-width: 944px) {
+    .logos{
+        flex-direction: column;
+    }
+
+    .flex{
+        flex-wrap: wrap;
+        padding-block: 5rem;
+    }
+    
+}
+
+
+/* THIS IS THE LOGO FOR THE GRADIENT BACKGROUND */
+
+.gradient_bg{
+    width: 100%;
+    height: 600px;
+    position: relative;
+
+}
+.gradient_bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainflex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 20px; 
+    justify-content: center;
+   
+  }
+
+.boxflex{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    gap: 4rem;
+    background-color: rgba(255, 255, 255, 0.47);
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 944px) {
+    .top{
+        max-width: 100%;
+    }
+    .hero{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .top h1{
+        font-size: 2.5rem;
+    }
+
+    .top p{
+        font-size: 1rem;
+    }
+
+    .circle{
+        width: 300px;
+        height: 300px;
+        left: -350px;
+    }
+
+    .clipart{
+        width: 200px;
+        transform: translateX(-50px);
+    }
+    
+}
+
+

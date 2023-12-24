@@ -53,6 +53,8 @@ import telephone from './telephone.png'
 import envelope from './envelope.png'
 import Torah from './Torah.png'
 
+import grd2 from './grd2.jpg'
+
 export{
     analytics,
     integrations,
@@ -99,5 +101,6 @@ export{
     envelope,
     telephone,
     shake,
-    arrowRight
+    arrowRight,
+    grd2
 }

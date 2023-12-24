@@ -66,6 +66,48 @@ export const bestOption = [
 ]
 
 
+export const StepGrid = [
+    {
+        imgURL: teamCollab, 
+        headText: "improve customer experience",
+        subtext: "Collaborate on fast, Thorough replies",
+        subtext2: "With Influx, teams can work together to craft personalized responses that are fast, thorough, and on-brand. No more copy/paste, no more stepping on each other’s toes, and no more embarrassing mistakes."
+    }, 
+
+    {
+        imgURL: analytics,
+        headText: "drive operational efficiency",
+        subtext: "Cut the busywork so your team can thrive",
+        subtext2: "Replace Manual tasks with easy automations so you can assign, escalate and reply to every message on time - helping your team work more efficiently"
+
+    },
+
+    {
+        imgURL: sharedInbox,
+        headText: "increase growth",
+        subtext: "Retain high value customers and client alike",
+        subtext2: "Use analytics to streamline your workflow, improve customer satisfaction and support your team, the Result? Lasting relationships with customers- and a team that doesn't burn out"
+
+    }
+]
+
+
+export const reviewsGradient = [
+    {
+        review: "Influx has revolutionized the way our team manages communications and customer interactions at Skyline Solutions. With its seamless integration and user-friendly interface, our productivity has soared. It's a game-changer for any business looking to streamline their processes.",
+        name: "Emily Watson, CEO of Skyline Solutions"
+    },
+
+    {
+        review: "Influx has been a lifesaver for us at StellarTech Solutions. Its comprehensive platform allows us to consolidate all communication channels and customer data into one place. The analytics provided have helped us make data-driven decisions, enhancing our customer service quality significantly.",
+        name: "David Reynolds, COO of StellarTech Solutions"
+    },
+
+    {
+        review: "As a growing startup, Visionary Ventures needed a tool to centralize our communications and customer management. Influx exceeded our expectations. Its intuitive interface and customization options tailored perfectly to our needs. Thanks to Influx, we've scaled efficiently without compromising on customer satisfaction.",
+        name: "Mark Johnson, CEO of Visionary Ventures"
+    }
+]
 
 
 
