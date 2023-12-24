@@ -7,7 +7,7 @@ const GradientBackground = () => {
   return (
     <div>
       <div style={{ backgroundImage: `url(${grd2})`, backgroundSize: 'cover', minHeight: '600px' }}>
-        <h2>Be it Support, success or finance, B2B teams use Influx to build lasting relationships</h2>
+        <h2>Be it Support, Success or finance, B2B teams use Influx to build lasting relationships</h2>
 
 
         <div className={style.mainflex}>
