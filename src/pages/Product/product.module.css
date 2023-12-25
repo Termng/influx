@@ -134,15 +134,16 @@
 
 .gradient_bg{
     width: 100%;
-    height: 600px;
+    height: auto;
     position: relative;
 
 }
 .gradient_bg img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
+
+
 
 .mainflex {
     display: grid;
@@ -150,6 +151,8 @@
     gap: 2rem;
     padding: 20px; 
     justify-content: center;
+    width: 1200px;
+    margin: 0 auto;
    
   }
 
@@ -161,13 +164,48 @@
     width: 100%;
     height: auto;
     gap: 4rem;
-    background-color: rgba(255, 255, 255, 0.47);
+    background-color: rgba(255, 255, 255, 0.369);
     padding: 2rem;
     border-radius: 10px;
     flex: 1;
 }
 
+.grd_head{
+    padding-block: 4rem;
+    font-size: 2.2rem;
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
 
+
+.review{
+    line-height: 1.4rem;
+}
+
+.reviewee{
+    font-weight: 600;
+}
+
+@media (max-width: 1210px) {
+    .mainflex{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .boxflex{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        max-width: 700px;
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.47);
+        padding: 2rem;
+       
+    }
+    
+}
 
 
 

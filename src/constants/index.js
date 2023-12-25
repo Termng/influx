@@ -1,5 +1,5 @@
 import {analytics,integrations,liveChat,
-    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip,circle,circle2,circle3, envelope, telephone, shake} from '../assets/index'
+    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip, envelope, telephone, shake, zero, one, two, three} from '../assets/index'
 
 import {Branch,Carvana,ClickUp,CultureAmp,Dropbox,GoDaddy,   Hootsuite,Lydia,Sennder,WizardPins,} from '../assets/index'
 
@@ -107,6 +107,50 @@ export const reviewsGradient = [
         review: "As a growing startup, Visionary Ventures needed a tool to centralize our communications and customer management. Influx exceeded our expectations. Its intuitive interface and customization options tailored perfectly to our needs. Thanks to Influx, we've scaled efficiently without compromising on customer satisfaction.",
         name: "Mark Johnson, CEO of Visionary Ventures"
     }
+]
+
+
+export const prodfeatures = [
+    {
+        imgURL: zero,
+        headtext: "It's all on the record",
+        maintext: "Keep Client feedback and context where it belongs - in your inbox. A shared view for your whole team guarantees visibility and makes retracing decisions simple. Context is never lost as communicaion history and customer information lives in one place",
+        Buttons: "TEAM INBOXES",  
+        Buttons2: "CUSTOMER CONTEXT"  
+
+    },
+    {
+        imgURL: zero,
+        headtext: "It's all on the record",
+        maintext: "Keep Client feedback and context where it belongs - in your inbox. A shared view for your whole team guarantees visibility and makes retracing decisions simple. Context is never lost as communicaion history and customer information lives in one place",
+        Buttons: "TEAM INBOXES",  
+        Buttons2: "CUSTOMER CONTEXT"  
+
+    },
+    {
+        imgURL:one,
+        headtext: "Every Message is where it needs to be",
+        maintext: "No more wondering who is handling what. Simple automations get message to the right owner instanty, enforce SLA's and escalate critical issues",
+        Buttons: "RULES",  
+        Buttons2: "ASSIGNMENTS"  
+
+    },
+    {
+        imgURL: two,
+        headtext: "Work together to give the VIP's the VIP treatment",
+        maintext: "Comment internally on emailsto coordinate behind-the-scenes and your client wil just see one thorough reply from your team",
+        Buttons: "COMMENTS",  
+        Buttons2: "SHARED DRAFTS"  
+
+    },
+    {
+        imgURL: three,
+        headtext: "Make proactive work your competitive edge",
+        maintext: "Measure respose time, erformance and trends to stay ahead of the issues and deliver the best experience",
+        Buttons: "ANAYTICS",  
+        Buttons2: ".'"  
+
+    },
 ]
 
 

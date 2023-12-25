@@ -54,6 +54,13 @@ import envelope from './envelope.png'
 import Torah from './Torah.png'
 
 import grd2 from './grd2.jpg'
+import grd from './grd.png'
+
+
+import zero from './0.png'
+import one from './1.png'
+import two from './2.png'
+import three from './3.png'
 
 export{
     analytics,
@@ -102,5 +109,11 @@ export{
     telephone,
     shake,
     arrowRight,
-    grd2
+    grd2,
+    grd,
+    zero,
+    one,
+    two,
+    three
+   
 }
