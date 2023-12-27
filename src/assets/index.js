@@ -30,6 +30,7 @@ import circle from './circle.png'
 import circle2 from './circle2.png'
 import circle3 from './circle3.png'
 import arrowRight from './arrow-right-c.svg'
+import check from './checkmark-outline.svg'
 
 
 
@@ -57,6 +58,12 @@ import grd2 from './grd2.jpg'
 import grd from './grd.png'
 
 
+import starter from './starter.png'
+import business from './business.png'
+import enterprise from './enterprise.png'
+
+
+
 import zero from './0.png'
 import one from './1.png'
 import two from './2.png'
@@ -74,6 +81,7 @@ export{
 
     logo,
     hamburger,
+    check,
 
 
     brand,
@@ -114,6 +122,10 @@ export{
     zero,
     one,
     two,
-    three
+    three, 
+
+    starter,
+    business,
+    enterprise
    
 }

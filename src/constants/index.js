@@ -1,5 +1,5 @@
 import {analytics,integrations,liveChat,
-    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip, envelope, telephone, shake, zero, one, two, three} from '../assets/index'
+    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip, envelope, telephone, shake, zero, one, two, three, starter, business, enterprise} from '../assets/index'
 
 import {Branch,Carvana,ClickUp,CultureAmp,Dropbox,GoDaddy,   Hootsuite,Lydia,Sennder,WizardPins,} from '../assets/index'
 
@@ -148,6 +148,7 @@ export const prodfeatures = [
 
 export const pricingBlock=[
     {
+        imgURL: starter,
         planName: "Growth",
         planDetails: "For teams looking to streamline support workflows and improve performance",
         price: "$59",
@@ -165,11 +166,12 @@ export const pricingBlock=[
 
     },
     {
+        imgURL: business,
         planName: "Scale",
         planDetails: "For teams that need total workflow flexibility and advanced user management",
         price: "$99",
         duration: "Billed annually, minimum 20 seats",
-        cta: "Talk to Sales",
+        cta: "Talk to sales",
         Subtext: "Get everything in Growth, plus....",
         planList : [
             {list: "Multiple workspaces for distinct teams"},
@@ -182,11 +184,12 @@ export const pricingBlock=[
 
     },
     {
+        imgURL: enterprise,
         planName: "Premier",
         planDetails: "For teams looking for professional services and partnership to meet enterprise needs",
         price: "$229",
         duration: "Billed annually, minimum 50 seats",
-        cta: "Get Started",
+        cta: "Talk to sales",
         Subtext: "Everything in Scale and....",
         planList : [
             {list: "Highest usage caps across all features"},
