@@ -120,14 +120,6 @@ export const prodfeatures = [
 
     },
     {
-        imgURL: zero,
-        headtext: "It's all on the record",
-        maintext: "Keep Client feedback and context where it belongs - in your inbox. A shared view for your whole team guarantees visibility and makes retracing decisions simple. Context is never lost as communicaion history and customer information lives in one place",
-        Buttons: "TEAM INBOXES",  
-        Buttons2: "CUSTOMER CONTEXT"  
-
-    },
-    {
         imgURL:one,
         headtext: "Every Message is where it needs to be",
         maintext: "No more wondering who is handling what. Simple automations get message to the right owner instanty, enforce SLA's and escalate critical issues",
@@ -148,11 +140,68 @@ export const prodfeatures = [
         headtext: "Make proactive work your competitive edge",
         maintext: "Measure respose time, erformance and trends to stay ahead of the issues and deliver the best experience",
         Buttons: "ANAYTICS",  
-        Buttons2: ".'"  
+        Buttons2: "METRICS"  
 
     },
 ]
 
+
+export const pricingBlock=[
+    {
+        planName: "Growth",
+        planDetails: "For teams looking to streamline support workflows and improve performance",
+        price: "$59",
+        duration: "Billed annually, minimum 2 seats",
+        cta: "Get Started",
+        Subtext: "Deliver exceptional service with...",
+        planList : [
+            {list: "Omnichannel shared inboxes"},
+            {list: "Real-time collaboration features"},
+            {list: "Up to 20 rules to automate workflows"},
+            {list: "Analytics on team performance, customer satisfaction, SLAs and more"},
+            {list: "Built-in knowledge base, live chat with chatbots, and 50+ integrations"},
+
+        ]
+
+    },
+    {
+        planName: "Scale",
+        planDetails: "For teams that need total workflow flexibility and advanced user management",
+        price: "$99",
+        duration: "Billed annually, minimum 20 seats",
+        cta: "Talk to Sales",
+        Subtext: "Get everything in Growth, plus....",
+        planList : [
+            {list: "Multiple workspaces for distinct teams"},
+            {list: "User management with SSO, SCIM provisioning, and custom permissions"},
+            {list: "No-code dynamic objects to connect backend systems and up to 200 rules"},
+            {list: "Analytics by customer from your CRM"},
+            {list: "Onboarding and solution design"},
+
+        ]
+
+    },
+    {
+        planName: "Premier",
+        planDetails: "For teams looking for professional services and partnership to meet enterprise needs",
+        price: "$229",
+        duration: "Billed annually, minimum 50 seats",
+        cta: "Get Started",
+        Subtext: "Everything in Scale and....",
+        planList : [
+            {list: "Highest usage caps across all features"},
+            {list: "Additional success services including Premier Onboarding"},
+            {list: "Custom Build Hours including API advisory and integration development"},
+            {list: "Video conferencing support"},
+            {list: "Built-in knowledge base, live chat with chatbots, and 50+ integrations"},
+
+        ]
+
+    },
+
+
+
+]
 
 
 

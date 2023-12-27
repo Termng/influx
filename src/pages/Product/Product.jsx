@@ -1,10 +1,13 @@
 import React from 'react'
 import style from './product.module.css'
 import Button from '../../components/utils/Button'
-import {clip5, circle2} from '../../assets/index'
+import {clip5, circle2, clip2, clip3} from '../../assets/index'
 import Step from './Step'
 import Brands from './Brands'
 import GradientBackground from './GradientBackground'
+import ProdFeatures from './ProdFeatures'
+import WiggleLogo from './WiggleLogo'
+import CBanner from '../../components/Banner/CBanner'
 
 
 
@@ -32,6 +35,15 @@ const Product = () => {
       <Step/>
       <Brands/>
       <GradientBackground/>
+
+      <div className={style.overlay}>
+        <ProdFeatures/>
+        <img src={clip2} className={style.backgroundImg} alt="clip art of a girl sitting" />
+        <img src={clip3} className={style.backgroundImg2} alt="clip art of a girl sitting" />
+      </div>
+      <WiggleLogo/>
+
+      <CBanner/>  
 
 
 

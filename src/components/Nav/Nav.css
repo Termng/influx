@@ -1,5 +1,5 @@
 .active{
-        background: linear-gradient(90deg, rgb(255, 43, 115), rgb(255, 108, 53));
+        background: linear-gradient(90deg, rgb(255, 43, 115), #ff6c35);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         border: none;
@@ -16,6 +16,7 @@ nav{
     padding-block: 1rem;
     top: 0px;
     background-color: #fff;
+    z-index: 999;
 }
 
 nav ul{

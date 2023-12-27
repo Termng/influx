@@ -239,7 +239,8 @@ h1, h2, h3, h4, p{
 }
 
 .text-group h3{
-    font-size: 1.7rem
+    font-size: 1.7rem;
+    color: var(--accent-color);
 }
 
 .text-group p{

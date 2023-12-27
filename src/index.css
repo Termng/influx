@@ -106,7 +106,7 @@ button a{
 }
 
 .SecondaryBtn{
-  background: var(--gradient-background);
+  background: var(--accent-color);
   padding: 13px 24px;
   border-radius: 50px;
   line-height: 160%;
@@ -151,4 +151,6 @@ button a{
     transform: translateX(-75%); /* Adjust percentage based on the number of duplicated slides */
   }
 }
+
+
 

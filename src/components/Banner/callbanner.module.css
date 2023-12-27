@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding-block: 8rem;
+    background: rgb(195,34,145);
+    background: linear-gradient(66deg, rgba(195, 34, 144, 0.07) 0%, rgba(45, 198, 253, 0.126) 100%);
+}
+
+.main h2{
+    font-size: 5rem;
+    font-weight: 700;
+    max-width: 1000px;
+    text-align: center;
+}
+.main p{
+    font-weight: 500;
+    font-size: 1rem;
+}
