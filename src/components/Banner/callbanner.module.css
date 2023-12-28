@@ -14,8 +14,24 @@
     font-weight: 700;
     max-width: 1000px;
     text-align: center;
+    padding-inline: 2rem;
 }
 .main p{
     font-weight: 500;
     font-size: 1rem;
+}
+
+@media (max-width: 900px) {
+    .main h2{
+        font-size: 2rem;
+        padding-inline: 1.2rem;
+    }
+
+    .main p{
+        font-size: 1rem;
+        padding-inline: 1.2rem;
+        text-align: center;
+
+    }
+    
 }

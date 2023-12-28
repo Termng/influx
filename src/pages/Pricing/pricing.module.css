@@ -131,3 +131,103 @@
     }
 }
 
+
+
+/* This is the addons page */
+
+
+.grid {
+    display: flex;
+    gap: 1rem;
+   
+}
+
+.center{
+    margin: 0 auto;
+    max-width: 1000px;
+    padding-inline: 2rem;
+
+}
+
+.center > h2{
+    text-align: center;
+    font-size: 3.3rem;
+    padding-block: 3rem;
+}
+
+.flexGr{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    gap: 1.3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    flex: 1;
+}
+
+
+.wa_flex{
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.flexGr h2, .flexGr2 h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding-block: .5rem;
+}
+
+.flexGr p:first-of-type{
+    font-size: 1.3rem;
+    color: grey;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.duration{
+    font-size: 1.3rem;
+    color: grey;
+    font-weight: 500;
+
+}
+
+
+
+
+.flexGr2{
+    display: flex;
+    flex-direction: column;
+    margin-top: .8rem;
+    padding: 3rem 1rem;
+    gap: 1.3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    width: 100%;
+}
+
+.deets{
+    line-height: 1.5rem;
+    font-size: .95rem;
+}
+
+
+@media (max-width: 800px) {
+    .grid {
+        flex-direction: column;
+    }
+    .flexGr{
+        max-width: 600px;
+        width: 100%;
+    }
+    .wa_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    
+}

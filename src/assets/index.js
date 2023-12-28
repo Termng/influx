@@ -69,6 +69,14 @@ import one from './1.png'
 import two from './2.png'
 import three from './3.png'
 
+
+
+import gchat from './gchat.webp'
+import wchat from './icon.webp'
+import wapp from './wa.webp'
+import tgram from './telegram.webp'
+
+
 export{
     analytics,
     integrations,
@@ -126,6 +134,12 @@ export{
 
     starter,
     business,
-    enterprise
+    enterprise,
+
+
+    gchat,
+    wchat,
+    wapp,
+    tgram
    
 }

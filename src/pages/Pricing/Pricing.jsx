@@ -2,7 +2,9 @@ import React from 'react'
 import style from './pricing.module.css'
 import { pricingBlock } from '../../constants'
 import { check } from '../../assets'
-import AddOns from './AddOns'
+import { MainGrid } from '../Pricing/AddOns'
+import Cbanner from '../../components/Banner/CBanner'
+
 
 const Pricing = () => {
   return (
@@ -46,7 +48,8 @@ const Pricing = () => {
         ))}
       </div>
 
-      <AddOns />
+      <MainGrid />
+      <Cbanner />
     </div>
   )
 }

@@ -68,6 +68,7 @@
     justify-content: center;
     gap: 4rem;
     padding-block: 10rem;
+    padding-inline: 2rem;
 }
 
 .flexChild{
@@ -341,6 +342,14 @@
     bottom: 0;
     z-index: -1;
     transform: scale(.4);
+}
+
+
+@media (max-width:500px) {
+    .cards{
+        gap: 1rem;
+    }
+    
 }
 
 
