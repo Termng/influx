@@ -2,7 +2,7 @@
   --primary-text: black;
   --white-text: white;
   --nav-primary-color: #001B38;
-  --gradient-background:  linear-gradient(90deg, rgb(255, 43, 115), rgb(255, 108, 53));
+  --gradient-background:  linear-gradient(90deg, rgb(255, 43, 115), #ff6c35);
   --accent-color: #CC0049;
   --blue-grad-bg: linear-gradient(209deg, rgb(0, 27, 56) 23.25%, rgb(0, 110, 178) 161.08%);
 

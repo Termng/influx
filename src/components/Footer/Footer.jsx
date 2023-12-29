@@ -1,6 +1,8 @@
 import React from 'react'
 import style from '../Footer/Footer.module.css'
 import { footerlinks } from '../../constants'
+import {Link} from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -15,7 +17,11 @@ const Footer = () => {
 
             <ul className = {style.footerUl}>
               {foot.links.map((link) => (
-                <li key={link.name}> <a href={link.link}> {link.name}</a></li>
+                <li key={link.name}> 
+                  <Link to ={link.link}> {link.name}
+                  
+                  </Link>
+                </li>
               ))}
             </ul>
 

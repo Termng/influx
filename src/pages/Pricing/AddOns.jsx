@@ -55,7 +55,7 @@ export function Telegram() {
       <div>
         <h2>Telegram</h2>
         <p>for $100/month</p>
-        <p className={style.deets}>Connect a Telegram bot as a channel to manage conversations in Front.</p>
+        <p className={style.deets}>Connect a Telegram bot as a channel to manage conversations in Influx.</p>
       </div>
     </div>
   );

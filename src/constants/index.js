@@ -217,27 +217,27 @@ export const footerlinks = [
     {
         footCategory : "Product",
         links: [
-            {name: "Product", link: "/"},
-            {name: "Pricing", link: "/"},
-            {name: "Integrations Directory", link: "/"},
-            {name: "Developer Portal", link: "/"},
-            {name: "Get Started", link: "/"},
-            {name: "Download App", link: "/"},
+            {name: "Product", link: "/404"},
+            {name: "Pricing", link: "/404"},
+            {name: "Integrations Directory", link: "/404"},
+            {name: "Developer Portal", link: "/404"},
+            {name: "Get Started", link: "/404"},
+            {name: "Download App", link: "/404"},
 
         ]
     },
     {
         footCategory: "Using Front",
         links : [
-            {name: "Collaboration", link: "/"},
-            {name: "Workflow Automation", link: "/"},
-            {name: " Analytics", link: "/"},
-            {name: "Omnichanel Inbox", link: "/"},
-            {name: "Knowledge Base", link: "/"},
-            {name: "Live Chat", link: "/"},
-            {name: "Integrations & API", link: "/"},
-            {name: "Influx for Customer Support", link: "/"},
-            {name: "Influx for Logistics", link: "/"},
+            {name: "Collaboration", link: "/404"},
+            {name: "Workflow Automation", link: "/404"},
+            {name: " Analytics", link: "/404"},
+            {name: "Omnichanel Inbox", link: "/404"},
+            {name: "Knowledge Base", link: "/404"},
+            {name: "Live Chat", link: "/404"},
+            {name: "Integrations & API", link: "/404"},
+            {name: "Influx for Customer Support", link: "/404"},
+            {name: "Influx for Logistics", link: "/404"},
 
         ]
     },
@@ -245,37 +245,37 @@ export const footerlinks = [
     {
         footCategory: "Resources",
         links: [
-            {name: "Blog", link: "/"},
-            {name: "Influx Community", link: "/"},
-            {name: "Influx Academy", link: "/"},
-            {name: "Help Center", link: "/"},
-            {name: "Customer Stories", link: "/"},
-            {name: "Channel Partnerships", link: "/"},
-            {name: "Influx Admin Certification", link: "/"},
+            {name: "Blog", link: "/404"},
+            {name: "Influx Community", link: "/404"},
+            {name: "Influx Academy", link: "/404"},
+            {name: "Help Center", link: "/404"},
+            {name: "Customer Stories", link: "/404"},
+            {name: "Channel Partnerships", link: "/404"},
+            {name: "Influx Admin Certification", link: "/404"},
         ]
     },
 
     {
         footCategory: "Learn", 
         links: [
-            {name: "Guide to 100% CSAT", link: "/"},
-            {name: "5 tips to scale customer support", link: "/" },
-            {name: "7 best customer service software", link: "/"},
-            {name: "Influx's Support Report", link: "/"},
-            {name: "Influx vs Zendesk", link: "/"},
-            {name: "Influx vs Freshdesk", link: "/" }
+            {name: "Guide to 100% CSAT", link: "/404"},
+            {name: "5 tips to scale customer support", link: "/404" },
+            {name: "7 best customer service software", link: "/404"},
+            {name: "Influx's Support Report", link: "/404"},
+            {name: "Influx vs Zendesk", link: "/404"},
+            {name: "Influx vs Freshdesk", link: "/404" }
         ]
     }, 
 
     {
         footCategory: "Company", 
         links: [
-            {name: "About Us", link: "/" },
-            {name: "Careers", link: "/"},
-            {name: "Press", link: "/"},
-            {name: "Security", link: "/"},
-            {name: "Lega;", link: "/"},
-            {name: "Contact Us", link:"/"}
+            {name: "About Us", link: "/404" },
+            {name: "Careers", link: "/404"},
+            {name: "Press", link: "/404"},
+            {name: "Security", link: "/404"},
+            {name: "Lega;", link: "/404"},
+            {name: "Contact Us", link:"/404"}
         ]
     }
    
@@ -284,11 +284,11 @@ export const footerlinks = [
 
 
 export const downFooter = [
-    {name: " 2023 FrontApp, Inc. All rights reserved.", link: "/"}, 
-    {name: " SaaS Services Agreement", link: "/"}, 
-    {name: " Privacy Notice", link: "/"}, 
-    {name: "Cookie Policy ", link: "/"}, 
-    {name: "Status ", link: "/"}, 
+    {name: " 2023 FrontApp, Inc. All rights reserved.", link: "/404"}, 
+    {name: " SaaS Services Agreement", link: "/404"}, 
+    {name: " Privacy Notice", link: "/404"}, 
+    {name: "Cookie Policy ", link: "/404"}, 
+    {name: "Status ", link: "/404"}, 
    
 ]
 

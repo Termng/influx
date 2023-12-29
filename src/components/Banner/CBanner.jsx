@@ -6,7 +6,7 @@ const CBanner = () => {
   return (
     <div className={style.main}>
 
-        <p>See how other operations, inbound sales, account management, and support teams use Front →</p>
+        <p>See how other operations, inbound sales, account management, and support teams use Influx →</p>
 
         <h2>Deliver exceptional service at scale</h2>
 
