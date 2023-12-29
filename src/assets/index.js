@@ -30,6 +30,7 @@ import circle from './circle.png'
 import circle2 from './circle2.png'
 import circle3 from './circle3.png'
 import arrowRight from './arrow-right-c.svg'
+import arrowRightWhite from './arrowRightW.svg'
 import check from './checkmark-outline.svg'
 
 
@@ -75,6 +76,11 @@ import gchat from './gchat.webp'
 import wchat from './icon.webp'
 import wapp from './wa.webp'
 import tgram from './telegram.webp'
+
+
+
+import convert1 from './converted.png'
+import convert2 from './converted2.png'
 
 
 export{
@@ -125,6 +131,7 @@ export{
     telephone,
     shake,
     arrowRight,
+    arrowRightWhite,
     grd2,
     grd,
     zero,
@@ -140,6 +147,9 @@ export{
     gchat,
     wchat,
     wapp,
-    tgram
+    tgram,
+
+    convert1,
+    convert2
    
 }

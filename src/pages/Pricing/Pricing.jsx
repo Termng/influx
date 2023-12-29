@@ -4,6 +4,7 @@ import { pricingBlock } from '../../constants'
 import { check } from '../../assets'
 import { MainGrid } from '../Pricing/AddOns'
 import Cbanner from '../../components/Banner/CBanner'
+import GradientBanner from './GradientBanner'
 
 
 const Pricing = () => {
@@ -49,6 +50,7 @@ const Pricing = () => {
       </div>
 
       <MainGrid />
+      <GradientBanner/>
       <Cbanner />
     </div>
   )

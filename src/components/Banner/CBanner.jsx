@@ -12,7 +12,7 @@ const CBanner = () => {
 
         <Button
           text={"Get Started"}
-          size={"25px"}
+          size={"15px"}
           btnStyle={"SecondaryBtn"}
         />
 
