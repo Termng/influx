@@ -2,7 +2,7 @@ import { Route, Routes } from 'react-router';
 import logo from './logo.svg';
 import './App.css';
 import {Home, Pricing, Nav, Product, Resources, Solutions, Footer} from './shand'
-import FourOhFour from './pages/FourOhFour';
+import FourOhFour from './pages/404/FourOhFour';
 
 
 

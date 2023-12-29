@@ -1,8 +1,18 @@
 import React from 'react'
+import ResourcesHeader from './ResourcesHeader'
 
 const Resources = () => {
   return (
-    <div>Resources</div>
+    <div>
+      <ResourcesHeader/>
+      <div>
+
+
+
+
+
+      </div>
+    </div>
   )
 }
 

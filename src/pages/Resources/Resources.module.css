@@ -1,0 +1,25 @@
+.lowerNav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-left: 8.5rem;
+    gap: 3rem;
+}
+
+.lowerNav h1{
+    font-size: 1.5rem;
+}
+
+.lowerNav h1 span{
+    font-weight: 300;
+}
+
+.lowerNav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+.lowerNav ul li a{
+    font-size: .9rem;
+    font-weight: 500;
+}

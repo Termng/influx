@@ -21,7 +21,7 @@ const Product = () => {
           </div>
 
           <div className={style.top}>
-            <h1 className='gradient2'>Turn Conversations into Customers for life</h1>
+            <h1 className='gradient'>Turn Conversations into Customers for life</h1>
             <p>Influx helps technology teams to work together to seamlessly deliver an unforgettable customer experience</p>
             <Button text={"Get Started"} size={"12px"} btnStyle={"PrimaryBtn"}/>
           </div>

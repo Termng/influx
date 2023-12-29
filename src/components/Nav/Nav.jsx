@@ -9,6 +9,9 @@ import Button from '../utils/Button'
 
 const Nav = () => {
   const [menuOpen, setmenuOpen] = useState(false)
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
 
   return (
 
@@ -29,7 +32,7 @@ const Nav = () => {
 
           <ul className={menuOpen? "open": ""}>
             {navNav.map ((navItems) => (
-              <li key={navItems.name}>
+              <li onClick={scrollToTop} key={navItems.name}>
                 <NavLink to = {navItems.link}>
                   {navItems.name}
                 </NavLink>

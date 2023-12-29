@@ -5,6 +5,9 @@ import {Link} from 'react-router-dom'
 
 
 const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+}
   return (
     
       <footer
@@ -17,7 +20,7 @@ const Footer = () => {
 
             <ul className = {style.footerUl}>
               {foot.links.map((link) => (
-                <li key={link.name}> 
+                <li onClick={scrollToTop} key={link.name}> 
                   <Link to ={link.link}> {link.name}
                   
                   </Link>
