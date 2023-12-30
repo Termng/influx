@@ -5,6 +5,7 @@ import { check } from '../../assets'
 import { MainGrid } from '../Pricing/AddOns'
 import Cbanner from '../../components/Banner/CBanner'
 import GradientBanner from './GradientBanner'
+import transition from '../../Transition'
 
 
 const Pricing = () => {
@@ -56,4 +57,4 @@ const Pricing = () => {
   )
 }
 
-export default Pricing
+export default transition(Pricing)

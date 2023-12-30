@@ -1,5 +1,5 @@
 import {analytics,integrations,liveChat,
-    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip, envelope, telephone, shake, zero, one, two, three, starter, business, enterprise} from '../assets/index'
+    kbase, omniChannel,teamCollab,autoWorkflow,logo,sharedInbox, brand,clip1,clip2,clip3,clip4,clip, envelope, telephone, shake, zero, one, two, three, starter, business, enterprise, checked, unchecked} from '../assets/index'
 
 import {Branch,Carvana,ClickUp,CultureAmp,Dropbox,GoDaddy,   Hootsuite,Lydia,Sennder,WizardPins,} from '../assets/index'
 
@@ -232,6 +232,101 @@ export const episode = [
         title: "Creating excellent customer experiences with Ajoke Yusuf"
     },
 ]
+
+
+export const automation= [
+    {
+        imgURL: autoWorkflow,
+        head: "Build no-code workflows",
+        deeets: "Aggregate messages across every channel and route them to the right person based on account ownership, capacity, and more."
+
+    },
+    {
+        imgURL: integrations,
+        head: "Collaborate in Real times",
+        deeets: "Tackle customer issues swiftly with powerful collaboration capability—coordinate, escalate, and handoff with ease."
+
+    },
+    {
+        imgURL: liveChat,
+        head: "Retain More Customers",
+        deeets: "Foster meaningful relationships with customers by tracking key metrics like reply time and customer satisfaction."
+
+    },
+]
+
+
+export const desk = [
+    {
+        category: "Email",
+        deets : [
+            {
+                icon: unchecked,
+                feature: "Distribution groups and shared inboxes are chaotic" 
+            },
+            {
+                icon: unchecked,
+                feature: "Unable to build workflow automation" 
+            },
+            {
+                icon: unchecked,
+                feature: "No native analytics or insights into team performance" 
+            },
+
+        ]
+    },
+    {
+        category: "Front",
+        deets : [
+            {
+                icon: checked,
+                feature: "Seamless collaboration and smooth handoffs" 
+            },
+            {
+                icon: checked,
+                feature: "Automate processes with powerful, no-code workflows" 
+            },
+            {
+                icon: checked,
+                feature: "Easy to onboard, learn, and maintain at scale" 
+            },
+
+        ]
+    },
+    {
+        category: "Helpdesk",
+        deets : [
+            {
+                icon: unchecked,
+                feature: "Complex and difficult to navigate in the UI" 
+            },
+            {
+                icon: unchecked,
+                feature: "Team collaboration is clunky and disjointed" 
+            },
+            {
+                icon: unchecked,
+                feature: "Long and costly onboarding for teams and admins" 
+            },
+
+        ]
+    },
+
+
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
 
 
 

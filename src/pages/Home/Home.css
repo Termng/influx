@@ -8,11 +8,14 @@ h1, h2, h3, h4, p{
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    padding-top: 3rem;
 }
 
 .main-text{
     max-width: 900px;
 }
+
+
 
 .hero-content h1{
     font-size: 5rem;
@@ -25,6 +28,7 @@ h1, h2, h3, h4, p{
     padding-inline: 2rem;
     text-align: center;
 }
+
 
 
 .player-wrapper{
@@ -54,6 +58,7 @@ h1, h2, h3, h4, p{
     font-size: 1.5rem;
     max-width: 800px;
     margin: 0 auto;
+    padding-inline: 1.3rem;
 }
 
 
@@ -66,7 +71,14 @@ h1, h2, h3, h4, p{
     margin: 0 auto;
 }
 
+.featureIcon{
+    width: 50px;
+}
 
+.featureIcon img{
+    width: 100%;
+    object-fit: cover;
+}
 
 .category{
     display: flex;
@@ -77,6 +89,20 @@ h1, h2, h3, h4, p{
 .feature p{
     font-weight: 600;
     font-size: 1.3rem;
+}
+
+@media (max-width: 600px) {
+    .featureIcon{
+        width: 30px;
+    }
+    .feature p{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .category{
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 
@@ -184,7 +210,37 @@ h1, h2, h3, h4, p{
     .card-text{
         width: 100%;
     }
+
+    .main-text{
+        padding-inline: 2rem;
+    }
+
+    .main-text h1{
+        font-size: 2rem;
+        text-align: left;
+        padding-bottom: 1.5rem;
+    }
+    .main-text h3{
+        text-align: left ;padding-inline: .3rem;
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
     
+    .section3{
+        padding-inline: 1.3rem;
+    }
+
+    .section3 h2{
+        font-size: 2rem ;
+    }
+    .section3 h3{
+        font-size: 1.2rem;
+
+    }
+    .center-text{
+        font-size: 1.3rem;
+        padding-inline: 1.3rem;
+    }
 }
 
 

@@ -354,6 +354,10 @@
 
 
 /* THIS IS FOR THE WIGGLE LOGO COMPONENT */
+.wiggleHead{
+    padding-inline: 1.2rem;
+}
+
 
 .wiggleHead h1{
     text-align: center  ;
@@ -375,4 +379,5 @@
   
 .middle{
     max-width: 900px;
+    
 } 

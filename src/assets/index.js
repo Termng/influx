@@ -94,6 +94,10 @@ import podcastPic from './podcast.png'
 import bugBounty from './BugBounty_blogheader_magnifyingglass_926x484.webp'
 import csat from './CSATGuide_blogheader_926x484.webp'
 import gse from './GSEntrepreneur_blogheader_926x484.webp'
+import sChat from './SolutionChat.jpg'
+
+import checked from './checkmark-circled.svg'
+import unchecked from './close-circled.svg'
 
 export{
     analytics,
@@ -173,6 +177,10 @@ export{
     gse,
     csat,
     bugBounty,
-    podcastPic
+    podcastPic,
+    sChat,
+
+    checked,
+    unchecked
    
 }

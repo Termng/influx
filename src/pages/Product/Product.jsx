@@ -8,6 +8,7 @@ import GradientBackground from './GradientBackground'
 import ProdFeatures from './ProdFeatures'
 import WiggleLogo from './WiggleLogo'
 import CBanner from '../../components/Banner/CBanner'
+import transition from '../../Transition'
 
 
 
@@ -59,4 +60,4 @@ const Product = () => {
   )
 }
 
-export default Product
+export default transition(Product)

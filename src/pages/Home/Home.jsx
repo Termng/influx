@@ -6,6 +6,7 @@ import {Carousel, Feature, Slider, BestOption} from "../Home/sections/index"
 import { Card1, Card2, Card3 } from './sections/OverviewCard';
 import {SlideSliding } from './sections/Slider';
 import CBanner from '../../components/Banner/CBanner';
+import transition from '../../Transition';
 
 
 
@@ -115,4 +116,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default transition(Home);

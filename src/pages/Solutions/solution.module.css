@@ -1,0 +1,218 @@
+.hero{
+    display: flex;
+    align-items: flex-start;
+    padding-inline: 4rem;
+    gap: 2rem;
+    padding-block: 5rem;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.heroText{
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-inline: 2rem;
+}
+
+.heroText h4{
+    text-transform: uppercase;
+}
+
+.heroText h1{
+    font-size: 3.4rem;
+}
+
+.heroText p{
+    font-size: 1.4rem;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+
+.heroImage{
+    max-width: 600px;
+}
+
+.heroImage img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media (max-width:1094px) {
+    .hero{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        padding-inline: .8rem;
+    }
+
+    .heroText{
+        max-width: 100%;
+    }
+
+    .heroText h1{
+        font-size: 1.9rem;
+    }
+    .heroText p{
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+.certifiedFlex{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-block: 3rem;
+    flex-wrap: wrap;
+}
+
+.certified{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 280px;
+    text-align: center;
+    gap: 1rem;
+    padding-inline: 1rem;
+    line-height: 1.4rem;
+}
+
+.certified h2{
+    font-size: 1.3rem;
+}
+.certified p{
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+
+
+/* This is for the comparison design */
+
+.flexColumn{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding-inline: 1.2rem;
+
+    flex-wrap: wrap;
+
+}
+
+.flexColumn h2{
+    padding-block: 2rem;
+}
+
+.flexColumn p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 250px;
+}
+
+.detailsFlex{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* This is for the testimonial component */
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content:center;
+    max-width: 950px;
+    margin: 0 auto;
+    padding-inline: 2rem;
+    padding-block: 3rem;
+}
+
+.testimonial h1{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.6rem;
+}
+
+.testimonial h3{
+    font-size: 1.5rem;
+}
+.testimonial p{
+    font-size: 1.3rem;
+}
+
+
+@media (max-width:1094px){
+    .testimonial h1{
+        font-size: 1.3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+    padding-inline: 2rem;
+    padding-block: .5rem;
+    border-radius: 50px;
+    max-width: 420px;
+    color: white;
+    border: 2px solid var(--nav-primary-color)
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+.form input{
+    border: none;
+    outline: none;
+}
+.form input::placeholder{
+    font-size: 1rem;
+    color: var(--nav-primary-color);
+}
+
+.form label{
+    /* background: red; */
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: var(--nav-primary-color);
+    border-radius: 50px;
+    padding: 18px 20px;
+    color: white
+}
+
+@media (max-width:583px) {
+    .form{
+        display: none;
+    }
+    
+}

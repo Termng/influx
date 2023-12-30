@@ -6,7 +6,9 @@ const Feature = () => {
     <div className='feature'>
       {features.map((feature) => (
       <div key={feature.title} className='category'>
-        <img src={feature.icon} alt={feature.title} />
+        <div className= 'featureIcon'>
+          <img src={feature.icon} alt={feature.title} />
+        </div>
         <p>{feature.title}</p>
 
       </div>

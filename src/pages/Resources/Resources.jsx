@@ -7,6 +7,8 @@ import Speaker from './Speaker'
 import Podcast from './Podcast'
 import { FlexCards } from './Articles'
 import CBanner from '../../components/Banner/CBanner'
+import transition from '../../Transition'
+
 
 const Resources = () => {
   return (
@@ -43,4 +45,4 @@ const Resources = () => {
   )
 }
 
-export default Resources
+export default transition(Resources)
