@@ -197,17 +197,41 @@ export const pricingBlock=[
             {list: "Custom Build Hours including API advisory and integration development"},
             {list: "Video conferencing support"},
             {list: "Built-in knowledge base, live chat with chatbots, and 50+ integrations"},
-
         ]
-
     },
-
-
-
 ]
 
 
-
+export const episode = [
+    {
+        ep: "Episode 8",
+        title: "Lessons in Low Ego Leadership with DocuSign CEO Dan Springer"
+    },
+    {
+        ep: "Episode 9",
+        title: "Fearlessly Chasing your goals with Olympian Pita Tatatoufa"
+    },
+    {
+        ep: "Episode 10",
+        title: "What the best teams do subconsciously with Ron Fieldman"
+    },
+    {
+        ep: "Episode 11",
+        title: "Finding your Genius Zone with Dr Rhema Felix"
+    },
+    {
+        ep: "Episode 12",
+        title: "When passion meets Burnout by Dr Chinonye Jennifer"
+    },
+    {
+        ep: "Episode 13",
+        title: "Listen hard, Change Easy with Harry Styles"
+    },
+    {
+        ep: "Episode 14",
+        title: "Creating excellent customer experiences with Ajoke Yusuf"
+    },
+]
 
 
 

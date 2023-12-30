@@ -82,6 +82,18 @@ import tgram from './telegram.webp'
 import convert1 from './converted.png'
 import convert2 from './converted2.png'
 
+import sit from './sit.webp'
+import sit2 from './sit2.webp'
+import frontline from './frontlines.jpg'
+import rewind from './Influx Rewind.gif'
+import speaker from './speaker.png'
+import podcastPic from './podcast.png'
+
+
+
+import bugBounty from './BugBounty_blogheader_magnifyingglass_926x484.webp'
+import csat from './CSATGuide_blogheader_926x484.webp'
+import gse from './GSEntrepreneur_blogheader_926x484.webp'
 
 export{
     analytics,
@@ -150,6 +162,17 @@ export{
     tgram,
 
     convert1,
-    convert2
+    convert2,
+
+    sit,
+    sit2,
+    frontline,
+    rewind,
+    speaker,
+
+    gse,
+    csat,
+    bugBounty,
+    podcastPic
    
 }

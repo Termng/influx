@@ -8,7 +8,7 @@ const FourOhFour = () => {
   return (
     <div>
       <div className={style.flex404}>
-        <h1 className='gradient'>Sorry, this Page's Coordinates are Lost in the Space-Time Continuum</h1>
+        <h1 className={style.errorText}>Sorry, this Page's Coordinates are Lost in the Space-Time Continuum</h1>
         <div className= {style.vidWrap}>
               <ReactPlayer
                 className={style.four}

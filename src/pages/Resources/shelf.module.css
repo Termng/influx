@@ -1,0 +1,155 @@
+.allShelves{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-block: 2rem;
+    flex-wrap: wrap;
+    padding-inline: 1rem;
+}
+
+
+.shelf1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 350px;
+    padding-inline: 2rem;
+    border-right: 1px solid rgb(131, 126, 126);
+    padding-block: 2rem;
+}
+
+.sub{
+    font-size: 2rem;
+    font-weight: 500;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.5rem;
+}
+
+.deets{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.more a{
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--accent-color);
+}
+
+
+.imgCont{
+    max-width: 300px;
+    height: 220px;
+}
+
+.imgCont img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* THIS IS THE CENTER SHELF */
+
+
+.shelfCenter{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    padding-inline: 1rem;
+    border-right: 1px solid rgb(131, 126, 126);
+    padding-block: 2rem;
+}
+
+@media (max-width:1223px) {
+   .shelfCenter{
+    border: none;
+   }
+    
+}
+
+@media (max-width:900px) {
+    .shelf1{
+        border: none;
+    }
+    
+}
+
+.imgCent{
+    max-width: 450px;
+    height: 300px;
+}
+
+.imgCent img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS THE SECOND SHELF */
+
+.superShelf{
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+}
+
+.shelf2{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    /* margin-inline: 1rem; */
+    border-bottom: .6px solid grey;
+    padding-block: 3rem;
+}
+
+.sub2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+@media (max-width: 1246px) {
+    .shelf2{
+        max-width: 100%;
+        width: 100%;
+        margin-right: 2rem;
+    }
+    .shelfCenter{
+        max-width: 100%;
+        width: 100%;
+    }
+    .shelf1{
+        max-width: 100%;
+        width: 100%;
+    }
+    
+
+    
+}
+
+
