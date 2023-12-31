@@ -34,11 +34,7 @@ export function Slide1() {
 
       <p>“Influx has helped us respond to our customers twice as fast. Customers rate us 4.7/5 stars for our support.”</p>
 
-      <a className={style.learn}  href="/"> Learn More
-      <img 
-        src={arrowRight} 
-        alt="arrowRight" />
-      </a>
+      
     </div>
   );
 }
@@ -65,11 +61,7 @@ export function Slide2() {
       <img src={Spotify} alt="Spotify Logo" />
 
 
-      <a className={style.learn}  href="/"> Learn More
-      <img 
-        src={arrowRight} 
-        alt="arrowRight" />
-      </a>
+     
     </div>
   );
 }
@@ -92,11 +84,7 @@ export function Slide3() {
       </div>
 
 
-      <a className={style.learn}  href="/"> Learn More
-      <img 
-        src={arrowRight} 
-        alt="arrowRight" />
-      </a>
+      
     </div>
   );
 }
