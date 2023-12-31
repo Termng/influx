@@ -55,7 +55,7 @@ const Home = () => {
           btnStyle={"PrimaryBtn"}
         />
         
-        <h2 className='center-text-small'>8,000+ businesses choose Front for every customer conversation — from simple to complex</h2>
+        <h2 className='center-text-small'>8,000+ businesses choose Influx for every customer conversation — from simple to complex</h2>
       </div>
 
       <Carousel/>

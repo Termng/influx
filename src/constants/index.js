@@ -40,12 +40,12 @@ export const slidingCarousel = [
 export const Videocards = [
     {   
         title1: "Automation and attention", 
-        text1: "Front automatically aggregates & routes customer conversations from your channels, ensuring every message gets to the right person." 
+        text1: "Influx automatically aggregates & routes customer conversations from your channels, ensuring every message gets to the right person." 
     },
     
     {   
         title2: "Speed and Personalization", 
-        text2: "With Front, personalization doesn’t slow teams down. Every conversation is surrounded by customer history, relevant data, and built-in collaboration so teams can work behind the scenes to craft better responses, faster." 
+        text2: "With Influx, personalization doesn’t slow teams down. Every conversation is surrounded by customer history, relevant data, and built-in collaboration so teams can work behind the scenes to craft better responses, faster." 
     },
 
     {   
@@ -276,7 +276,7 @@ export const desk = [
         ]
     },
     {
-        category: "Front",
+        category: "Influx",
         deets : [
             {
                 icon: checked,
@@ -346,7 +346,7 @@ export const footerlinks = [
         ]
     },
     {
-        footCategory: "Using Front",
+        footCategory: "Using Influx",
         links : [
             {name: "Collaboration", link: "/404"},
             {name: "Workflow Automation", link: "/404"},
@@ -403,7 +403,7 @@ export const footerlinks = [
 
 
 export const downFooter = [
-    {name: " 2023 FrontApp, Inc. All rights reserved.", link: "/404"}, 
+    {name: " 2023 InfluxApp, Inc. All rights reserved.", link: "/404"}, 
     {name: " SaaS Services Agreement", link: "/404"}, 
     {name: " Privacy Notice", link: "/404"}, 
     {name: "Cookie Policy ", link: "/404"}, 
