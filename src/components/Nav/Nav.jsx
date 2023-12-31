@@ -12,6 +12,13 @@ const Nav = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0)
 }
+  const toggleMenu = () => {
+    setmenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setmenuOpen(false);
+  };
 
   return (
 
@@ -33,7 +40,7 @@ const Nav = () => {
           <ul className={menuOpen? "open": ""}>
             {navNav.map ((navItems) => (
               <li onClick={scrollToTop} key={navItems.name}>
-                <NavLink to = {navItems.link}>
+                <NavLink to = {navItems.link} onClick={closeMenu} >
                   {navItems.name}
                 </NavLink>
               </li>

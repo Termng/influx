@@ -35,6 +35,7 @@ h1, h2, h3, h4, p{
     max-width: 900px;
     max-height: 450px;
     border-radius: 25px;
+    transform: scale(.85);
     overflow: hidden;
 }
 

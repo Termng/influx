@@ -102,11 +102,16 @@ nav ul li a {
         margin: 0;
         padding: 0;
         margin-bottom: 2.5rem;
+        
     }
 
     nav ul.open{
         display: flex;
         flex-direction: column;
+        padding-top: 2rem;
+        animation-name: slideDown;
+        animation-duration: 0.3s;
+        animation-timing-function: ease-in-out;
     }
 
 
@@ -118,3 +123,17 @@ nav ul li a {
    
     
 }
+
+
+@keyframes slideDown {
+    from {
+      max-height: 0;
+      padding-top: 0;
+      opacity: 0;
+    }
+    to {
+      max-height: 500px; 
+      padding-top: 2rem; 
+      opacity: 1;
+    }
+  }
