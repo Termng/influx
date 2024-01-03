@@ -6,7 +6,7 @@ import { episode } from '../../constants'
 
 const Podcast = () => {
   return (
-    <div className={style.darkBlue} >
+    <div className={style.lightGreen} >
 
         <div className={style.side}>
             <div className={style.speaker}>

@@ -4,7 +4,7 @@ import { bestOption } from '../../../constants'
 const BestOption = () => {
   return (
     <div className='BestOptionFlex'>
-        <h2 className='gradient'>The Best from email and help desks</h2>
+        <h2 className=' gradient bestgrad'>The Best from email and help desks</h2>
 
         <div className='bestMainFlex'>
             {bestOption.map((best)=> (

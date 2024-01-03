@@ -30,7 +30,7 @@
     align-items: flex-end;
     justify-content: center;
     gap: 2rem;
-    background: linear-gradient(192.98deg, rgb(255, 225, 203) 36.06%, rgb(255, 255, 255) 115.95%);
+    background: linear-gradient(192.98deg, #ffe1cb 36.06%, rgb(255, 255, 255) 115.95%);
 }
 
 .headForm{
@@ -141,6 +141,10 @@
 
 .darkBlue{
     background-color: rgb(0, 27, 56);
+    padding-block: 5rem;
+}
+.lightGreen{
+    background-color: rgb(49, 15, 21);
     padding-block: 5rem;
 }
 

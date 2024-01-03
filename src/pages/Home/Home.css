@@ -15,6 +15,11 @@ h1, h2, h3, h4, p{
     max-width: 900px;
 }
 
+.main-text h3{
+    padding-block: 2rem;
+    line-height: 2rem;
+    color: grey;
+}
 
 
 .hero-content h1{
@@ -56,8 +61,8 @@ h1, h2, h3, h4, p{
 
 .center-text-small{
     text-align: center;
-    font-size: 1.5rem;
-    max-width: 800px;
+    font-size: var(--sub-head-text);
+    max-width: 900px;
     margin: 0 auto;
     padding-inline: 1.3rem;
 }
@@ -188,14 +193,13 @@ h1, h2, h3, h4, p{
 }
 
 .card-text h2{
-    font-size: 2.1rem;
+    font-size: 1.7rem;
     font-weight: 700;
 
 }
 .card-text p{
     font-size: 1.2rem;
-    letter-spacing: .4px;
-    line-height: 1.6rem;
+    line-height: 2rem;
     font-weight: 400;
 
 }
@@ -217,13 +221,15 @@ h1, h2, h3, h4, p{
     }
 
     .main-text h1{
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: left;
         padding-bottom: 1.5rem;
     }
     .main-text h3{
-        text-align: left ;padding-inline: .3rem;
-        font-size: 1.2rem;
+        padding-block: 2rem;
+        text-align: left;
+        padding-inline: .3rem;
+        font-size: 1rem;
         line-height: 2rem;
     }
     
@@ -235,17 +241,33 @@ h1, h2, h3, h4, p{
         font-size: 2rem ;
     }
     .section3 h3{
-        font-size: 1.2rem;
+        font-size: 1rem;
+        line-height: 2rem;
 
     }
     .center-text{
         font-size: 1.3rem;
         padding-inline: 1.3rem;
     }
+    .center-text-small{
+        font-size: 1.3rem;
+        padding-inline: 1.3rem;
+    }
+    .card-text p{
+        font-size: 1rem;
+    }
+    .text-group p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
 }
 
 
 /* This is the BestOption section */
+
+
+
+
 
 .BestOptionFlex{
     display: flex;
@@ -256,7 +278,8 @@ h1, h2, h3, h4, p{
 }
 
 .BestOptionFlex h2{
-    font-size: var(--head-text);
+    font-size: 2rem;
+    padding-block: 4rem;
     text-align: center;
 }
 
@@ -287,12 +310,15 @@ h1, h2, h3, h4, p{
 }
 
 
+
+
 .text-group{
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     gap: 1.4rem;
+    padding-inline: 1rem;
 }
 
 .text-group h3{
@@ -302,6 +328,14 @@ h1, h2, h3, h4, p{
 
 .text-group p{
     font-size: 1.2rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
+}
+
+@media (max-width:1034px) {
+    .text-group p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    
 }
 
